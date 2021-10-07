@@ -1,9 +1,8 @@
 # importing the Dataset
-
 import pandas as pd
+import joblib
 
-messages = pd.read_csv('SMSSpamCollection', sep='\t',
-                           names=["label", "message"])
+messages =  pd.read_csv("Data/SMSSpamCollection",sep = '\t',names=['label','message'])
 
 #Data cleaning and preprocessing
 import re
@@ -47,3 +46,7 @@ metrics = confusion_matrix(y_test,y_pred)
 
 from sklearn.metrics import accuracy_score
 accuracy = accuracy_score(y_test,y_pred)
+
+
+joblib.dump(Spam_detect_model,"model.pkl")
+joblib.dump(cv,"Vectorizer.pkl")

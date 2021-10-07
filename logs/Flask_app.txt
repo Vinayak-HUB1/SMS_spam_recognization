@@ -1,0 +1,6 @@
+2021-10-07 15:42:28,714 - INFO - prediction - Preprocessing object initialized
+2021-10-07 15:42:28,840 - INFO - prediction - data Preprocessing completed
+2021-10-07 15:45:21,615 - INFO - prediction - Preprocessing object initialized
+2021-10-07 15:45:21,636 - INFO - prediction - data Preprocessing completed
+2021-10-07 15:45:22,091 - INFO - prediction - data vectorization completed
+2021-10-07 15:45:22,225 - INFO - prediction - predictions are [0]
